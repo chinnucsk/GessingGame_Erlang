@@ -1,0 +1,1 @@
+A basic game, guessing game, implemented in erlang.
