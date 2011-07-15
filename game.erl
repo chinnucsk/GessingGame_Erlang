@@ -7,7 +7,6 @@
 
 %% The main method to be called from out of the module to start playing the game.
 start() ->
-	%%string:to_integer("32").
 	play(makeRandom (5),1).
 	
 %% A method to start the game.
@@ -48,7 +47,6 @@ compareValue(Value,RandomNumber) when Value < RandomNumber ->
 	io:format ("The entered value is smaller than secret Number!! ~n",[]),
 	false;
 compareValue(Value,RandomNumber) when Value > RandomNumber -> 
-	%%io:format("The value is ~w" , [Value]),
 	io:format ("The entered value is greater than secret Number!! ~n",[]),
 	false.
 
